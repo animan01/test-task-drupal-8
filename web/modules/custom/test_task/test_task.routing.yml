@@ -1,0 +1,7 @@
+test_task.form:
+  path: '/admin/config/environment-settings'
+  defaults:
+    _title: 'Environment Form'
+    _form: '\Drupal\test_task\Form\EnvironmentForm'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Test task module hooks.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function test_task_theme($existing, $type, $theme, $path) {
+  return [
+    'block_name_role' => [
+      'render element' => 'elements',
+      'template' => 'block/block--name-role',
+      'base hook' => 'block',
+      'variables' => [
+        'name' => NULL,
+        'roles' => NULL,
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,8 @@
+services:
+  test_task.route_subscriber:
+    class: Drupal\test_task\Routing\RouteSubscriber
+    tags:
+    - { name: event_subscriber }
+  plugin.manager.viewsaccess:
+    class: Drupal\test_task\Plugin\views\access\ViewsCustomAccess
+    parent: default_plugin_manager

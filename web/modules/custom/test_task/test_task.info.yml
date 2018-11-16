@@ -1,0 +1,7 @@
+name: Test task module
+description: This module provide functional Test task site.
+type: module
+package: Test Task
+core: 8.x
+dependencies:
+- drupal:block
