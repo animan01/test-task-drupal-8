@@ -22,4 +22,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Unignore main configuration.
 !/web/sites/default/settings.php
